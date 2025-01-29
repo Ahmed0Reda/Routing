@@ -1,0 +1,9 @@
+.bg-color{
+    color: #2C3E50;
+}
+.btn-color{
+    background-color: #17A68A;
+}
+.form-control:focus{
+    box-shadow: none;
+}

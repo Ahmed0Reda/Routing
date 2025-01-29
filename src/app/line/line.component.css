@@ -1,0 +1,19 @@
+.icon::after{
+    content: "";
+    position: relative;
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    transform: translateY(175%);
+    margin-left: 10px;
+}
+.icon::before{
+    content: "";
+    position: relative;
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    transform: translateY(175%);
+    margin-right: 10px;
+
+}

@@ -1,0 +1,15 @@
+.text-color{
+    color: #2C3E50;
+}
+.layer{
+    background-color: rgba(26, 188, 156, 85%);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+figure:hover .layer{
+    opacity: 1;
+}
